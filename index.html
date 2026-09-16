@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plural of Nouns - Grado Quinto</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f9ff;color:#17324d}
+header{background:linear-gradient(135deg,#4f8cff,#72d6c9);color:white;text-align:center;padding:35px 18px}
+h1{margin:0;font-size:38px} header p{font-size:19px}
+main{max-width:950px;margin:auto;padding:20px}
+.card{background:white;border-radius:18px;padding:22px;margin:18px 0;box-shadow:0 4px 14px #0001}
+h2{color:#2868c7}.rule{background:#eef6ff;border-left:6px solid #4f8cff;padding:13px;margin:10px 0;border-radius:10px}
+.example{display:inline-block;background:#fff3c4;padding:10px 14px;margin:6px;border-radius:12px;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+button{background:#2868c7;color:white;border:0;padding:12px 20px;border-radius:12px;font-size:16px}
+input{padding:12px;border-radius:10px;border:1px solid #aaa}
+footer{text-align:center;background:#17324d;color:white;padding:20px}
+</style>
+</head>
+<body>
+<header>
+<h1>📚 PLURAL OF NOUNS</h1>
+<p>Los sustantivos en plural en inglés</p>
+<strong>Inglés • Grado Quinto</strong>
+</header>
+<main>
+<section class="card"><h2>🎯 Objetivo</h2><p>Aprender a formar y reconocer sustantivos en plural en inglés mediante reglas sencillas, ejemplos y actividades prácticas.</p></section>
+<section class="card"><h2>🌱 Metodología: Escuela Nueva</h2><p>Promueve un aprendizaje activo, participativo y autónomo. Los estudiantes trabajan a su ritmo, colaboran y relacionan el inglés con situaciones cotidianas.</p></section>
+<section class="card"><h2>📖 ¿Qué es el plural?</h2><p>Usamos el plural cuando hablamos de dos o más personas, animales, objetos o lugares.</p><span class="example">one cat → two cats</span><span class="example">one book → three books</span></section>
+<section class="card"><h2>✏️ Reglas principales</h2>
+<div class="rule"><b>1. La mayoría:</b> agrega <b>-s</b>.<br>cat → cats | book → books</div>
+<div class="rule"><b>2. Terminadas en s, x, ch, sh:</b> agrega <b>-es</b>.<br>box → boxes | bus → buses</div>
+<div class="rule"><b>3. Consonante + y:</b> cambia <b>y → ies</b>.<br>baby → babies</div>
+<div class="rule"><b>4. Irregulares:</b> cambian de forma.<br>child → children | man → men</div>
+</section>
+<section class="card"><h2>🧠 Ejemplos</h2><div class="grid">
+<div class="rule">🐱 cat → <b>cats</b></div><div class="rule">📕 book → <b>books</b></div>
+<div class="rule">📦 box → <b>boxes</b></div><div class="rule">👶 baby → <b>babies</b></div>
+<div class="rule">👧 child → <b>children</b></div><div class="rule">🚌 bus → <b>buses</b></div>
+</div></section>
+<section class="card"><h2>🎮 ¡Pon a prueba lo aprendido!</h2><p>Escribe el plural de <b>apple</b>:</p>
+<input id="r" placeholder="Escribe aquí"> <button onclick="check()">Comprobar</button><p id="out"></p></section>
+<section class="card"><h2>💻 Recursos TIC e IA</h2><ul><li>Computador, tableta o celular.</li><li>Página web educativa.</li><li>Imágenes y ejemplos digitales.</li><li>Herramientas de inteligencia artificial como apoyo.</li></ul></section>
+<section class="card"><h2>📝 Producto y evaluación</h2><p><b>Producto:</b> resolver ejercicios de formación de plurales.</p><p><b>Evaluación:</b> comprensión de las reglas, participación, autonomía y correcta formación de los sustantivos.</p></section>
+<section class="card"><h2>🏫 Contexto</h2><p>Actividad para quinto grado con ejemplos cercanos: animales, útiles escolares, objetos del salón y situaciones cotidianas.</p></section>
+</main>
+<footer>🌟 Aprende inglés jugando, practicando y compartiendo.</footer>
+<script>
+function check(){let x=document.getElementById('r').value.trim().toLowerCase();document.getElementById('out').textContent=x==='apples'?'✅ ¡Correcto! Apple → Apples':'❌ Inténtalo de nuevo. Recuerda agregar -s.'}
+</script>
+</body></html>
